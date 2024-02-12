@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 """A command-line interface for managing instances of BaseModel.
-This module provides a command-line interpreter for managing instances of BaseModel.
+
+This module supply a command-line interpreter managing instances of BaseModel.
 It defines commands for creating, displaying, updating, and deleting instances.
+
 """
 
 import cmd
@@ -206,4 +208,5 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == '__main__':
+    """infinite loop"""
     HBNBCommand().cmdloop()
